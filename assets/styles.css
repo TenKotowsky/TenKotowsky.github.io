@@ -7,6 +7,13 @@ body {
   background: linear-gradient(90deg, rgba(96,0,186,1) 0%, rgba(0,78,194,1) 100%);
 }
 
+div {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
 .Center {
   display: flex;
   justify-content: center;
