@@ -14,17 +14,17 @@ div {
   padding-left: 80px;
 }
 
-.Center {
+.center {
   display: flex;
   justify-content: center;
 }
 
-.Title {
+.title {
   font-size: 65;
   font-weight: bold;
 }
 
-.BottomText {
+.bottomText {
   font-size: 35;
 }
 
@@ -39,6 +39,6 @@ div {
   margin: 4px 2px;
 }
 
-.button1 {
+.inviteButton {
   background-color: #008CBA;
 }
