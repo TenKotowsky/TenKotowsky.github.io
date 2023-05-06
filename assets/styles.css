@@ -10,14 +10,10 @@ div {
   margin-left: auto;
 }
 
-.mainBody {
+body {
   margin: 0;
   overflow: hidden;
   background: linear-gradient(90deg, rgba(96,0,186,1) 0%, rgba(0,78,194,1) 100%);
-}
-
-.documentationBody {
-  background: linear-gradient(90deg, rgba(0,153,255,1) 0%, rgba(0,80,255,1) 100%);
 }
 
 .container {
@@ -40,7 +36,7 @@ div {
 }
 
 .lugaLogoSecond {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   width: 14em;
