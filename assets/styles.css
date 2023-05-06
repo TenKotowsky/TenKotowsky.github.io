@@ -30,7 +30,7 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-td:nth-child(even) {
+.blackText {
   color: black;
 }
 
