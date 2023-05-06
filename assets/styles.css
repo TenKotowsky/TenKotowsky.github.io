@@ -21,14 +21,14 @@ table {
 }
 
 td, th {
-  border: 1px solid #c7c7c7;
+  border: 1px solid #FFFFFF;
   text-align: left;
   font-size: 20px;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #c7c7c7;
+  background-color: #FFFFFF;
 }
 
 .blackText {
