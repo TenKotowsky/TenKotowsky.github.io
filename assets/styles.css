@@ -29,10 +29,14 @@ div {
 .lugaLogoSecond {
   top: 5em;
   left: 5em;
-  width: 30em;
-  height: 30em;
+  width: 15em;
+  height: 15em;
   animation: orbit 36.5s
     linear infinite;
+}
+.lugaLogoMain::before,
+.lugaLogoSecond::before {
+    position: absolute;
 }
 .lugaLogoSecond::before {
   top: 2.8em;
