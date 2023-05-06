@@ -21,7 +21,9 @@ div {
 }
 
 .container {
-  
+    width: 40em;
+    height: 40em;
+    position: relative;
 }
 
 .lugaLogoSecond {
