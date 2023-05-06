@@ -43,8 +43,8 @@ div {
   position: relative;
   top: 0;
   left: 0;
-  width: 15em;
-  height: 15em;
+  width: 14em;
+  height: 14em;
   animation: orbit 36.5s
     linear infinite;
 }
