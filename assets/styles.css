@@ -11,11 +11,37 @@ div {
 }
 
 .mainBody {
+  margin: 0;
+  overflow: hidden;
   background: linear-gradient(90deg, rgba(96,0,186,1) 0%, rgba(0,78,194,1) 100%);
 }
 
 .documentationBody {
   background: linear-gradient(90deg, rgba(0,153,255,1) 0%, rgba(0,80,255,1) 100%);
+}
+
+.container {
+  
+}
+
+.lugaLogoSecond {
+  top: 5em;
+  left: 5em;
+  width: 30em;
+  height: 30em;
+  animation: orbit 36.5s
+    linear infinite;
+}
+.lugaLogoSecond::before {
+  top: 2.8em;
+  right: 2.8em;
+  width: 3em;
+  height: 3em;
+}
+@keyframes orbit {
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .center {
