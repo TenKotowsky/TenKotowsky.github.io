@@ -50,6 +50,11 @@ body {
   font-weight: bold;
 }
 
+.subTitle {
+  font-size: 55px;
+  font-weight: bold;
+}
+
 .bottomText {
   font-size: 30px;
   text-align: center;
