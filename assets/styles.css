@@ -14,45 +14,26 @@ body {
   background: linear-gradient(90deg, rgba(96,0,186,1) 0%, rgba(0,78,194,1) 100%);
 }
 
-.container {
-    width: 40em;
-    height: 40em;
-}
-
-.logoCenter {
-  margin: 0;
-  position: absolute;
-  top: 50%:
-  left: 50%;
-  transform: translate(-50%, -50%);
+.Center {
+  display: flex;
+  justify-content: center;
+  height: 240px;
 }
 
 .luaLogoMain {
+  z-index: 1;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 12em;
-  height: 12em;
 }
 
 .luaLogoSecond {
-  position: absolute;
+  z-index: 2;
+  position: static;
   top: 0;
   left: 0;
-  width: 12em;
-  height: 12em;
-  animation: orbit 36.5s
+  animation: orbit 25s
     linear infinite;
 }
 
-.luaLogoMain::before,
-.luaLogoSecond::before {
-    position: absolute;
-}
-.luaLogoSecond::before {
-  width: 3em;
-  height: 3em;
-}
 @keyframes orbit {
     to {
         transform: rotate(360deg);
