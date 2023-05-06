@@ -11,8 +11,6 @@ div {
 }
 
 body {
-  margin: 0;
-  overflow: hidden;
   background: linear-gradient(90deg, rgba(96,0,186,1) 0%, rgba(0,78,194,1) 100%);
 }
 
@@ -35,7 +33,7 @@ body {
   left: 0;
 }
 
-.lugaLogoSecond {
+.luaLogoSecond {
   position: absolute;
   top: 0;
   left: 0;
@@ -45,11 +43,11 @@ body {
     linear infinite;
 }
 
-.lugaLogoMain::before,
-.lugaLogoSecond::before {
+.luaLogoMain::before,
+.luaLogoSecond::before {
     position: absolute;
 }
-.lugaLogoSecond::before {
+.luaLogoSecond::before {
   width: 3em;
   height: 3em;
 }
