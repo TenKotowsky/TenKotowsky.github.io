@@ -21,16 +21,16 @@ div {
 .center {
   display: flex;
   justify-content: center;
-  text-align: center;
 }
 
 .title {
-  font-size: 75px;
+  font-size: 85px;
   font-weight: bold;
 }
 
 .bottomText {
   font-size: 30px;
+  text-align: center;
 }
 
 .button {
