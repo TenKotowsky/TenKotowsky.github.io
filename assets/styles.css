@@ -40,9 +40,9 @@ div {
 }
 
 .lugaLogoSecond {
-  position:absolute;
-  top:0;
-  left:0;
+  position: relative;
+  top: 0;
+  left: 0;
   width: 15em;
   height: 15em;
   animation: orbit 36.5s
