@@ -15,7 +15,8 @@ body {
 }
 
 table {
-  font-family: arial, sans-serif;
+  border-radius: 15px;
+  font-family: "Calibri", sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
@@ -82,7 +83,7 @@ tr:nth-child(even) {
 }
 
 .button {
-  border-radius: 10px;
+  border-radius: 15px;
   color: white;
   padding: 15px 32px;
   text-align: center;
