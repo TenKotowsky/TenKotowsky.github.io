@@ -100,3 +100,7 @@ tr:nth-child(even) {
 .documentationButton {
   background-color: #7700ff;
 }
+
+.patreonButton {
+  background-color: #ff424d;
+}
