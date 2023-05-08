@@ -20,7 +20,7 @@
             <br>
             <h1 class="subTitle">Info</h1>
             <h1 class="bottomText">LuaBot is (as the name suggests) written in Lua. It uses <a href="https://github.com/SinisterRectus/Discordia" target="_blank">Discordia</a> - a Discord API library written in Lua for the Luvit runtime environment.</h1>
-            <h1 class="bottomText">It also uses <a href="https://github.com/luvit/lit/blob/master/deps/coro-http.lua" target="_blank">coro-http</a> and <a href="https://github.com/luvit/lit/blob/master/deps/json.lua" target="_blank">json</a> libraries for Luvit.</h1>
+            <h1 class="bottomText">It also uses <a href="https://github.com/luvit/lit/blob/master/deps/coro-http.lua" target="_blank">coro-http</a>, <a href="https://github.com/SinisterRectus/lit-sqlite3" target="_blank">lit-sqlite3</a> and <a href="https://github.com/luvit/lit/blob/master/deps/json.lua" target="_blank">json</a> libraries for Luvit.</h1>
             <br>
             <h1 class="subTitle">Commands</h1>
         </center>
@@ -45,64 +45,70 @@
                         <td>Responds with "Pong!". That's basically it.</td>
                     </tr>
                     <tr>
-                        <td class="blackText">userinfo</td>
-                        <td class="blackText">user (mention)</td>
+                        <td class="blackText">prefix</td>
+                        <td class="blackText">new prefix</td>
                         <td class="blackText">General commands</td>
-                        <td class="blackText">Shows basic information about mentioned user: nickname (if any), id, Discord join date and server join date. The info embed also has a preview of user's avatar.</td>
+                        <td class="blackText">Changes this server's LuaBot prefix. The prefix can't be longer than 10 characters. "Manage server" permission required.</td>
                     </tr>
                     <tr>
-                        <td>avatar</td>
+                        <td>userinfo</td>
                         <td>user (mention)</td>
                         <td>General commands</td>
-                        <td>Sends user's avatar.</td>
+                        <td>Shows basic information about mentioned user: nickname (if any), id, Discord join date and server join date. The info embed also has a preview of user's avatar.</td>
                     </tr>
                     <tr>
-                        <td class="blackText">ban</td>
+                        <td class="blackText">avatar</td>
                         <td class="blackText">user (mention)</td>
-                        <td class="blackText">Moderation commands</td>
-                        <td class="blackText">Bans mentioned user.</td>
+                        <td class="blackText">General commands</td>
+                        <td class="blackText">Sends user's avatar.</td>
                     </tr>
                     <tr>
-                        <td>kick</td>
+                        <td>ban</td>
                         <td>user (mention)</td>
                         <td>Moderation commands</td>
-                        <td>Kicks mentioned user.</td>
+                        <td>Bans mentioned user.</td>
                     </tr>
                     <tr>
-                        <td class="blackText">slowmode</td>
-                        <td class="blackText">duration (in seconds)</td>
+                        <td class="blackText">kick</td>
+                        <td class="blackText">user (mention)</td>
                         <td class="blackText">Moderation commands</td>
-                        <td class="blackText">Sets current channel's slowmode. The duration should be given in seconds and max 21600s (6 hours) long. Setting the slowmode duration to 0 disables it.</td>
+                        <td class="blackText">Kicks mentioned user.</td>
                     </tr>
                     <tr>
-                        <td>quote</td>
-                        <td>none</td>
-                        <td>4Fun commands</td>
-                        <td>Sends a random quote using <a href="https://api-ninjas.com/api/quotes" target="_blank">API Ninjas</a>. If the API doesn't respond, sends a random quote from a premade quotes list.</td>
+                        <td>slowmode</td>
+                        <td>duration (in seconds)</td>
+                        <td>Moderation commands</td>
+                        <td>Sets current channel's slowmode. The duration should be given in seconds and max 21600s (6 hours) long. Setting the slowmode duration to 0 disables it.</td>
                     </tr>
                     <tr>
-                        <td class="blackText">randomnumber</td>
-                        <td class="blackText">minimum number, maximum number</td>
+                        <td class="blackText">quote</td>
+                        <td class="blackText">none</td>
                         <td class="blackText">4Fun commands</td>
-                        <td class="blackText">Sends a random number between given min and max numbers. If the max number is bigger than 1000000000000, it will be changed to 1000000000000.</td>
+                        <td class="blackText">Sends a random quote using <a href="https://api-ninjas.com/api/quotes" target="_blank">API Ninjas</a>. If the API doesn't respond, sends a random quote from a premade quotes list.</td>
                     </tr>
                     <tr>
-                        <td>spotifyartist</td>
-                        <td>artist name</td>
+                        <td>randomnumber</td>
+                        <td>minimum number, maximum number</td>
                         <td>4Fun commands</td>
-                        <td>Shows basic information taken from Spotify about given artist.</td>
+                        <td>Sends a random number between given min and max numbers. If the max number is bigger than 1000000000000, it will be changed to 1000000000000.</td>
                     </tr>
                     <tr>
-                        <td class="blackText">spotifyalbum</td>
-                        <td class="blackText">album name</td>
+                        <td class="blackText">spotifyartist</td>
+                        <td class="blackText">artist name</td>
                         <td class="blackText">4Fun commands</td>
-                        <td class="blackText">Shows basic information taken from Spotify about given album and its tracklist. The tracklist contains the track's name, length and list of all artist appearing on it.</td>
+                        <td class="blackText">Shows basic information taken from Spotify about given artist.</td>
                     </tr>
                     <tr>
-                        <td>robloxuser</td>
-                        <td>roblox username</td>
+                        <td>spotifyalbum</td>
+                        <td>album name</td>
                         <td>4Fun commands</td>
-                        <td>Shows basic information about given roblox user's profile.</td>
+                        <td>Shows basic information taken from Spotify about given album and its tracklist. The tracklist contains the track's name, length and list of all artist appearing on it.</td>
+                    </tr>
+                    <tr>
+                        <td class="blackText">robloxuser</td>
+                        <td class="blackText">roblox username</td>
+                        <td class="blackText">4Fun commands</td>
+                        <td class="blackText">Shows basic information about given roblox user's profile.</td>
                     </tr>
             </table>
        </div>
