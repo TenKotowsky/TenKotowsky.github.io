@@ -1,10 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "Calibri";
     box-sizing: border-box;
-    color: #fff;
+    color: floralwhite;
+}
 
+.Center {
+  display: flex;
+  justify-content: center;
+  height: 240px;
 }
 
 h1{
