@@ -49,7 +49,7 @@ main.table {
 
 .table_body{
     width: 95%;
-    max-height: calc(89% - .8rem);
+    max-height: calc(75% - 1rem);
     background-color: rgba(51, 51, 51, 0.425);
 
     margin: .8rem auto;
@@ -81,8 +81,4 @@ thead th {
     left: 0;
     background: rgba(110, 63, 240, 0.247);
     text-transform: capitalize;
-}
-
-tbody tr:nth-child(even) {
-    background-color: #0000000b;
 }
