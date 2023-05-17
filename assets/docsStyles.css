@@ -43,9 +43,8 @@ main.table {
 
 .table_header {
     text-align: center;
-    width: 100%;
     background-color: rgba(31, 31, 31, 0.267);
-    padding: .8rem 1rem;
+    padding: .01rem 1rem;
 }
 
 .table_body{
