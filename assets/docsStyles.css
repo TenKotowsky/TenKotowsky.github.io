@@ -13,8 +13,6 @@ h1{
 body {
     background: linear-gradient(90deg, rgba(96,0,186,1) 0%, rgba(0,78,194,1) 100%);
     min-height: 100vh;
-    justify-content: center;
-    align-items: center;
 }
 
 main.table {
