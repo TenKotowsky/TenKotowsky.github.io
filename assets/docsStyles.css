@@ -6,10 +6,9 @@
     color: floralwhite;
 }
 
-.Center {
+.center {
   display: flex;
   justify-content: center;
-  height: 240px;
 }
 
 h1{
