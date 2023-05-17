@@ -70,10 +70,6 @@ main.table {
 .table_body::-webkit-scrollbar-thumb {
     border-radius: .5rem;
     background-color: #0009;
-    visibility: hidden;
-}
-
-.table_body:hover:-webkit-scrollbar-thumb {
     visibility: visible;
 }
 
