@@ -69,7 +69,7 @@ main.table {
 
 .table_body::-webkit-scrollbar-thumb {
     border-radius: .5rem;
-    background-color: #5e556f;
+    background-color: #0009;
     visibility: hidden;
 }
 
