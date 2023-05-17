@@ -16,14 +16,16 @@
   font-weight: bold;
 }
 
+.subTitle {
+  font-size: 65px;
+  font-weight: bold;
+}
+
 .bottomText {
   font-size: 30px;
   text-align: center;
 }
 
-h1{
-    margin-top: 10px;
-}
 body {
     background: linear-gradient(90deg, rgba(96,0,186,1) 0%, rgba(0,78,194,1) 100%);
     min-height: 100vh;
@@ -40,7 +42,6 @@ main.table {
 
     overflow: hidden;
 }
-
 
 .table_header {
     text-align: center;
@@ -59,7 +60,6 @@ main.table {
     border-radius: .6rem;
 
     overflow: auto;
-    
 
 }
 
