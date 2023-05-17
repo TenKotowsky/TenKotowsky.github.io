@@ -11,6 +11,16 @@
   justify-content: center;
 }
 
+.title {
+  font-size: 95px;
+  font-weight: bold;
+}
+
+.bottomText {
+  font-size: 30px;
+  text-align: center;
+}
+
 h1{
     margin-top: 10px;
 }
