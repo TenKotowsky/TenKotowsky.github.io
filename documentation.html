@@ -4,7 +4,7 @@
         <title>LuaBot Documentation</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/styles.css">
+        <link rel="stylesheet" href="assets/docsStyles.css">
         <link rel="icon" href="assets/images/Lua-Logo.png">
     </head>
 
@@ -24,105 +24,78 @@
             <br>
             <h1 class="subTitle">Commands</h1>
         </center>
-        <div>
-            <table>
-                    <tr>
-                        <th>Command</th>
-                        <th>Arguments</th>
-                        <th>Category</th>
-                        <th>Description</th>
-                    </tr>
-                    <tr>
-                        <td class="blackText">help</td>
-                        <td class="blackText">none</td>
-                        <td class="blackText">General commands</td>
-                        <td class="blackText">Displays some information about the bot and a list of commands.</td>
-                    </tr>
-                    <tr>
-                        <td>prefix</td>
-                        <td>new prefix</td>
-                        <td>General commands</td>
-                        <td>Changes current server's LuaBot prefix. The prefix can't be longer than 10 characters. "Manage server" permission required.</td>
-                    </tr>
-                    <tr>
-                        <td class="blackText">serverinfo</td>
-                        <td class="blackText">none</td>
-                        <td class="blackText">General commands</td>
-                        <td class="blackText">Shows basic information about the server user: description (if any), id, server creation date, boost level, amount of members and amount of text and voice channels. The info embed also has a preview of server's icon.</td>
-                    </tr>
-                    <tr>
-                        <td>userinfo</td>
-                        <td>user (mention)</td>
-                        <td>General commands</td>
-                        <td>Shows basic information about mentioned user: nickname (if any), id, Discord join date and server join date. The info embed also has a preview of user's avatar.</td>
-                    </tr>
-                    <tr>
-                        <td class="blackText">avatar</td>
-                        <td class="blackText">user (mention)</td>
-                        <td class="blackText">General commands</td>
-                        <td class="blackText">Sends user's avatar.</td>
-                    </tr>
-                    <tr>
-                        <td>ban</td>
-                        <td>user (mention)</td>
-                        <td>Moderation commands</td>
-                        <td>Bans mentioned user.</td>
-                    </tr>
-                    <tr>
-                        <td class="blackText">kick</td>
-                        <td class="blackText">user (mention)</td>
-                        <td class="blackText">Moderation commands</td>
-                        <td class="blackText">Kicks mentioned user.</td>
-                    </tr>
-                    <tr>
-                        <td>slowmode</td>
-                        <td>duration (in seconds)</td>
-                        <td>Moderation commands</td>
-                        <td>Sets current channel's slowmode. The duration should be given in seconds and max 21600s (6 hours) long. Setting the slowmode duration to 0 disables it. "Manage channels" permission required.</td>
-                    </tr>
-                    <tr>
-                        <td class="blackText">ping</td>
-                        <td class="blackText">none</td>
-                        <td class="blackText">4Fun commands</td>
-                        <td class="blackText">Responds with "Pong!". That's basically it.</td>
-                    </tr>
-                    <tr>
-                        <td>echo</td>
-                        <td>message</td>
-                        <td>4Fun commands</td>
-                        <td>Echoes what you say.</td>
-                    </tr>
-                    <tr>
-                        <td class="blackText">quote</td>
-                        <td class="blackText">none</td>
-                        <td class="blackText">4Fun commands</td>
-                        <td class="blackText">Sends a random quote using <a href="https://api-ninjas.com/api/quotes" target="_blank">API Ninjas</a>. If the API doesn't respond, sends a random quote from a premade quotes list.</td>
-                    </tr>
-                    <tr>
-                        <td>randomnumber</td>
-                        <td>minimum number, maximum number</td>
-                        <td>4Fun commands</td>
-                        <td>Sends a random number between given min and max numbers. If the max number is bigger than 1000000000000, it will be changed to 1000000000000.</td>
-                    </tr>
-                    <tr>
-                        <td class="blackText">spotifyartist</td>
-                        <td class="blackText">artist name</td>
-                        <td class="blackText">4Fun commands</td>
-                        <td class="blackText">Shows basic information taken from Spotify about given artist.</td>
-                    </tr>
-                    <tr>
-                        <td>spotifyalbum</td>
-                        <td>album name</td>
-                        <td>4Fun commands</td>
-                        <td>Shows basic information taken from Spotify about given album and its tracklist. The tracklist contains the track's name, length and list of all artist appearing on it.</td>
-                    </tr>
-                    <tr>
-                        <td class="blackText">robloxuser</td>
-                        <td class="blackText">roblox username</td>
-                        <td class="blackText">4Fun commands</td>
-                        <td class="blackText">Shows basic information about given roblox user's profile.</td>
-                    </tr>
-            </table>
-       </div>
+        <main class="table">
+            <section class="table_header">
+                <h1>Commands</h1>
+            </section>
+            <section class="table_body">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Command</th>
+                            <th>Arguments</th>
+                            <th>Category</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>help</td>
+                            <td>none</td>
+                            <td>General commands</td>
+                            <td>Displays some information about the bot and a list of commands.</td>
+                        </tr>
+                        <tr>
+                            <td>ping</td>
+                            <td>none</td>
+                            <td>General commands</td>
+                            <td>Responds with "Pong!". That's basically it.</td>
+                        </tr>
+                        <tr>
+                            <td>userinfo</td>
+                            <td>user (mention)</td>
+                            <td>General commands</td>
+                            <td>Shows basic information about mentioned user: nickname (if any), id, Discord join date and server join date. The info embed also has a preview of user's avatar.</td>
+                        </tr>
+                        <tr>
+                            <td>avatar</td>
+                            <td>user (mention)</td>
+                            <td>General commands</td>
+                            <td>Sends user's avatar.</td>
+                        </tr>
+                        <tr>
+                            <td>ban</td>
+                            <td>user (mention)</td>
+                            <td>Moderation commands</td>
+                            <td>Bans mentioned user.</td>
+                        </tr>
+                        <tr>
+                            <td>kick</td>
+                            <td>user (mention)</td>
+                            <td>Moderation commands</td>
+                            <td>Sets current channel's slowmode. The duration should be given in seconds and max 21600s (6 hours) long. Setting the slowmode duration to 0 disables it.</td>
+                        </tr>
+                        <tr>
+                            <td>quote</td>
+                            <td>none</td>
+                            <td>4Fun commands</td>
+                            <td>Sends a random quote using API Ninjas. If the API doesn't respond, sends a random quote from a premade quotes list.</td>
+                        </tr>
+                        <tr>
+                            <td>randomnumber</td>
+                            <td>minimum number, maximum number</td>
+                            <td>4Fun commands</td>
+                            <td>Sends a random number between given min and max numbers. If the max number is bigger than 1000000000000, it will be changed to 1000000000000.</td>
+                        </tr>
+                        <tr>
+                            <td>robloxuser</td>
+                            <td>roblox username</td>
+                            <td>4Fun commands</td>
+                            <td>Shows basic information about given roblox user's profile.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
     </body>
 </html>
