@@ -14,23 +14,6 @@ body {
   background: linear-gradient(90deg, rgba(96,0,186,1) 0%, rgba(0,78,194,1) 100%);
 }
 
-table {
-  border-radius: 15px;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #FFFFFF;
-  text-align: left;
-  font-size: 20px;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: rgba(255,255,255,.5);
-}
-
 .blackText {
   color: black;
 }
@@ -103,4 +86,8 @@ tr:nth-child(even) {
 
 .patreonButton {
   background-color: #ff424d;
+}
+
+.supportServer {
+  background-color: #7289da;
 }
