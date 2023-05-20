@@ -54,17 +54,17 @@ img {
 }
 
 .title {
-  font-size: 10vw;
+  font-size: 8vw;
   font-weight: bold;
 }
 
 .subTitle {
-  font-size: 5vw;
+  font-size: 3vw;
   font-weight: bold;
 }
 
 .bottomText {
-  font-size: 3vw;
+  font-size: 1vw;
   text-align: center;
 }
 
