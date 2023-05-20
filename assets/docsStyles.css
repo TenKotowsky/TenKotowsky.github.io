@@ -29,6 +29,10 @@ body {
     min-height: 100vh;
 }
 
+img {
+  max-width:100%;
+}
+
 main.table {
     width: 82vw;
     height: 90vh;
