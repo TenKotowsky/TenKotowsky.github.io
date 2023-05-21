@@ -14,10 +14,6 @@ body {
   background: linear-gradient(90deg, rgba(96,0,186,1) 0%, rgba(0,78,194,1) 100%);
 }
 
-img {
-  max-width:100%;
-}
-
 .blackText {
   color: black;
 }
@@ -54,17 +50,17 @@ img {
 }
 
 .title {
-  font-size: 8vw;
+  font-size: 95px;
   font-weight: bold;
 }
 
 .subTitle {
-  font-size: 3vw;
+  font-size: 65px;
   font-weight: bold;
 }
 
 .bottomText {
-  font-size: 1vw;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -75,7 +71,7 @@ img {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1vw;
+  font-size: 25px;
   margin: 4px 2px;
   cursor: pointer;
 }
