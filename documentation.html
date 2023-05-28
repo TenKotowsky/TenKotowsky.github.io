@@ -43,6 +43,12 @@
                                 <td>Displays some information about the bot and a list of commands.</td>
                             </tr>
                             <tr>
+                                <td>ping</td>
+                                <td>none</td>
+                                <td>General commands</td>
+                                <td>Responds with "Pong!" and the bot's ping (latency) in milliseconds.</td>
+                            </tr>
+                            <tr>
                                 <td>prefix</td>
                                 <td>new prefix</td>
                                 <td>General commands</td>
@@ -79,6 +85,12 @@
                                 <td>Bans mentioned user.</td>
                             </tr>
                             <tr>
+                                <td>tempban</td>
+                                <td>user (mention/id), hours/time, reason</td>
+                                <td>Moderation commands</td>
+                                <td>Bans mentioned user for the specified amount of time. Tempban duration can be specified by just sending a number (this will be treated as amount of hours). If you want to ban someone a longer period of time you can use 1w for 1 week tempban, 1m for 1 month tempban or 1y for 1 year tempban, etc.</td>
+                            </tr>
+                            <tr>
                                 <td>kick</td>
                                 <td>user (mention/id)</td>
                                 <td>Moderation commands</td>
@@ -101,12 +113,6 @@
                                 <td>channel id</td>
                                 <td>Periodic questions (QOTD/W) related commands</td>
                                 <td>Sets the channel that periodic questions will be sent to. Mentioning a channel doesn't work, you have to specify a channel id.</td>
-                            </tr>
-                            <tr>
-                                <td>ping</td>
-                                <td>none</td>
-                                <td>4Fun commands</td>
-                                <td>Responds with "Pong!". That's basically it.</td>
                             </tr>
                             <tr>
                                 <td>echo</td>
