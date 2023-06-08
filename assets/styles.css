@@ -78,16 +78,40 @@ body {
 
 .inviteButton {
   background-color: #008CBA;
+  transition: all 0.2s ease-in-out;
+}
+
+.inviteButtonGlow {
+  background-color: #008CBA;
+  box-shadow: 0 5px 15px #008CBA;
 }
 
 .documentationButton {
   background-color: #7700ff;
+  transition: all 0.2s ease-in-out;
+}
+
+.documentationButtonGlow {
+  background-color: #7700ff;
+  box-shadow: 0 5px 15px #7700ff;
 }
 
 .patreonButton {
   background-color: #ff424d;
+  transition: all 0.2s ease-in-out;
+}
+
+.patreonButtonGlow {
+  background-color: #ff424d;
+  box-shadow: 0 5px 15px #ff424d;
 }
 
 .supportServer {
   background-color: #7289da;
+  transition: all 0.2s ease-in-out;
+}
+
+.supportServerGlow {
+  background-color: #7289da;
+  box-shadow: 0 5px 15px #7289da;
 }
