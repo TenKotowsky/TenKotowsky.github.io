@@ -81,7 +81,7 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
-.inviteButtonGlow {
+.inviteButton:hover {
   background-color: #008CBA;
   box-shadow: 0 5px 15px #008CBA;
 }
@@ -91,7 +91,7 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
-.documentationButtonGlow {
+.documentationButton:hover {
   background-color: #7700ff;
   box-shadow: 0 5px 15px #7700ff;
 }
@@ -101,7 +101,7 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
-.patreonButtonGlow {
+.patreonButton:hover {
   background-color: #ff424d;
   box-shadow: 0 5px 15px #ff424d;
 }
@@ -111,7 +111,7 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
-.supportServerGlow {
+.supportServer:hover {
   background-color: #7289da;
   box-shadow: 0 5px 15px #7289da;
 }
