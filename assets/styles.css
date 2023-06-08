@@ -82,7 +82,7 @@ body {
 }
 
 .inviteButton:hover {
-  background-color: #008CBA;
+  background-color: #00abe3;
   box-shadow: 0 5px 15px #008CBA;
 }
 
@@ -92,7 +92,7 @@ body {
 }
 
 .documentationButton:hover {
-  background-color: #7700ff;
+  background-color: #983dff;
   box-shadow: 0 5px 15px #7700ff;
 }
 
@@ -102,7 +102,7 @@ body {
 }
 
 .patreonButton:hover {
-  background-color: #ff424d;
+  background-color: #ff6971;
   box-shadow: 0 5px 15px #ff424d;
 }
 
@@ -112,6 +112,6 @@ body {
 }
 
 .supportServer:hover {
-  background-color: #7289da;
+  background-color: #91aaff;
   box-shadow: 0 5px 15px #7289da;
 }
