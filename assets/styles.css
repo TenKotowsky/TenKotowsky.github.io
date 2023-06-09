@@ -1,6 +1,8 @@
 * {
   font-family: "Calibri";
   color: floralwhite;
+  text-align: center;
+}
 }
 
 div {
@@ -69,7 +71,6 @@ img {
 
 .bottomText {
   font-size: 30px;
-  text-align: center;
 }
 
 .button {
