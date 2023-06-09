@@ -24,6 +24,7 @@ img {
 
 .Center {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   height: 240px;
 }
@@ -50,6 +51,7 @@ img {
 
 .center {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
