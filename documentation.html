@@ -129,7 +129,7 @@
                                 <td>slowmode</td>
                                 <td>duration (in seconds)</td>
                                 <td>Moderation</td>
-                                <td>Sets current channel's slowmode. The duration should be given in seconds and max 21600s (6 hours) long. Setting the slowmode duration to 0 disables it. "Manage channels" permission required.</td>
+                                <td>Sets current channel's slowmode. Slowmode duration can be specified by just sending a number (this will be treated as amount of seconds). If you want the duration to be longer, you can use 1m for 1 minute slowmode or 1h for 1 hour slowmode etc. However something like 1m 2s (1 miunte 2 seconds) will NOT work. Setting the slowmode to 0 seconds disables it completely. "Manage channels" permission required.</td>
                             </tr>
                             <tr>
                                 <td>questioninfo</td>
@@ -262,6 +262,12 @@
                                 <td>word</td>
                                 <td>4Fun</td>
                                 <td>Sends a definition from the Urban Dictionary using <a href="https://api.urbandictionary.com/v0/define" target="_blank">Urban Dictionary API</a>.</td>
+                            </tr>
+                            <tr>
+                                <td>rps</td>
+                                <td>rock/paper/scissors</td>
+                                <td>4Fun</td>
+                                <td>You can play a simple game of rock paper scissors with LuaBot.</td>
                             </tr>
                             <tr>
                                 <td>randomnumber</td>
