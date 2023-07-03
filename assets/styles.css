@@ -86,42 +86,12 @@ img {
   cursor: pointer;
 }
 
-.inviteButton {
-  background-color: #008CBA;
+.buttons {
+  background-color: #38387a;
   transition: all 0.2s ease-in-out;
 }
 
-.inviteButton:hover {
-  background-color: #00abe3;
-  box-shadow: 0 5px 15px #008CBA;
-}
-
-.documentationButton {
-  background-color: #7700ff;
-  transition: all 0.2s ease-in-out;
-}
-
-.documentationButton:hover {
-  background-color: #8a24ff;
-  box-shadow: 0 5px 15px #7700ff;
-}
-
-.patreonButton {
-  background-color: #ff424d;
-  transition: all 0.2s ease-in-out;
-}
-
-.patreonButton:hover {
-  background-color: #ff6971;
-  box-shadow: 0 5px 15px #ff424d;
-}
-
-.supportServer {
-  background-color: #7289da;
-  transition: all 0.2s ease-in-out;
-}
-
-.supportServer:hover {
-  background-color: #91aaff;
+.buttons:hover {
+  background-color: #6C67AF;
   box-shadow: 0 5px 15px #7289da;
 }
