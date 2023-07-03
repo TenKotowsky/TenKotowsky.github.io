@@ -10,6 +10,10 @@
   justify-content: center;
 }
 
+.logoImg {
+    height: 230px;
+}
+
 .title {
   font-size: 95px;
   font-weight: bold;
