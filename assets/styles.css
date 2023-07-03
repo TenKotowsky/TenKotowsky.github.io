@@ -26,11 +26,11 @@ img {
   color: black;
 }
 
-.Center {
+.CenterLogo {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  height: 240px;
+  height: 470px;
 }
 
 .luaLogoMain {
